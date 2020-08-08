@@ -1,11 +1,21 @@
 # Analisis por Clasificacion Binaria Covid-19
 
-Se implementó un modelo Random Forest con la finalidad de predecir el resultado de los pacientes con Covid-19 positivo, nos hemos basado en 47 variables, además de esto se hizo clustering para obtener grupos con características similares, posteriormente se decidió trabajar un grupo específico en donde se contienen la mayor parte de pacientes con covid-19
+## Estructura del Repositorio:
+
+En la carpeta Analisis_Covid19
+
+- Graficas: Salida del Dataset preprocesado y la del cluster.
+- AnalisisClasificacionBinariaRFC: Archivo formato .ipynb, "Cuaderno de Jupyter" donde podrá evidenciar todo el método programado y experimentar según su conveniencia.
+-AnalisisClasificacionBinariaRFC: .Archivo formato .html "Cuaderno de Jupyter en formato HTML"
+- DataSets.rar: Aqui se encuentran las csv del dataset procesado, y del cluster
+
+
+Se implementó un modelo Random Forest con la finalidad de predecir el resultado de los pacientes con Covid-19 positivo, nos hemos basado en 47 variables, además de esto se hizo clustering para obtener grupos con características similares, posteriormente se decidió trabajar un grupo específico en donde se contienen la mayor parte de pacientes con covid-19 positivo. 
 
 El conjunto de datos original se tomó de: https://www.covid19survivalcalculator.com/download
 
-- master_dataset.csv -> conjunto de datos original
-- DataSetConEtiquetas_Grupo3.csv -> Dataset que se obtuvo realizando clustering en el dataset original
+- DataSetConEtiquetas_Grupo7.csv -> conjunto de datos del cluster
+- master_dataset_limpienzaDatos.csv -> Dataset que se obtuvo realizando clustering en el dataset original
 
 ## Pasos para reproducir resultados:
 
