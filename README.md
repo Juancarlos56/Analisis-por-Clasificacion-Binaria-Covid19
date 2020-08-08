@@ -2,7 +2,7 @@
 
 ## Estructura del Repositorio:
 
-En la carpeta Analisis_Covid19
+En la carpeta Analisis_Covid19_Clasificacion
 
 - Graficas: Salida del Dataset preprocesado y la del cluster.
 - AnalisisClasificacionBinariaRFC: Archivo formato .ipynb, "Cuaderno de Jupyter" donde podrá evidenciar todo el método programado y experimentar según su conveniencia.
